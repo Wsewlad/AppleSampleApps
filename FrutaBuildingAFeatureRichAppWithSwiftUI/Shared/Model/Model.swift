@@ -30,7 +30,7 @@ class Model: ObservableObject {
     @Published var allRecipesUnlocked = false
     @Published var unlockAllRecipesProduct: Product?
     
-    let defaults = UserDefaults(suiteName: "group.example.fruta")
+    let defaults = UserDefaults(suiteName: "group.example.fruta.9P37CPGJW5")
     
     private var userCredential: String? {
         get { defaults?.string(forKey: "UserCredential") }
